@@ -4,7 +4,22 @@
   "description": "Avatar-CLI Improvement Proposals",
   "author": "Andres Correa Casablanca <castarco@coderspirit.xyz>",
   "license": "GPL-3.0",
+  "scripts": {
+    "git-cz": "git-cz"
+  },
   "devDependencies": {
+    "commitizen": "^4.1.2",
+    "cz-conventional-changelog": "^3.2.0",
     "husky": "^4.2.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && npm run git-cz -- --hook || true"
+    }
   }
 }
