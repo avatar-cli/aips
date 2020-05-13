@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "description": "Avatar-CLI Improvement Proposals",
   "author": "Andres Correa Casablanca <castarco@coderspirit.xyz>",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "husky": "^4.2.5"
+  }
 }
