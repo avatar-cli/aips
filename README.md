@@ -20,6 +20,10 @@ AIP documents are numbered, and their filenames follow a common structure
   - `aips/features`: `feat-0000-short-title.md`
   - `aips/architecture`: `arch-0000-short-title.md`
 
+## How to contribute
+
+Read the [contributing guidelines](CONTRIBUTING.md).
+
 ## License
 
 AIPs are licensed under the [GPL 3.0 license](LICENSE).
