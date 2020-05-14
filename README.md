@@ -1,5 +1,7 @@
 # Avatar-CLI Improvement Proposals
 
+## Introduction
+
 The AIPs (or Avatar Improvement Proposals) are a set of formal specifications
 written to guide the development of the Avatar CLI project.
 
@@ -17,3 +19,7 @@ AIP documents are numbered, and their filenames follow a common structure
   - `aips/development`: `dev-0000-short-title.md`
   - `aips/features`: `feat-0000-short-title.md`
   - `aips/architecture`: `arch-0000-short-title.md`
+
+## License
+
+AIPs are licensed under the [GPL 3.0 license](LICENSE).
