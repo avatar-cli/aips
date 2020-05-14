@@ -5,6 +5,7 @@
   "author": "Andres Correa Casablanca <castarco@coderspirit.xyz>",
   "license": "GPL-3.0",
   "scripts": {
+    "commitlint": "commitlint",
     "git-cz": "git-cz"
   },
   "devDependencies": {
