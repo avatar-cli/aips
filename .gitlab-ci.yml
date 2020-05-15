@@ -19,7 +19,7 @@ git_checks:
     - |
       for commit_hash in ${COMMITS_LIST}; do
         IS_SIGNED="$(
-          git show --show-signature "${commit_hash}" \
+          (git show --show-signature "${commit_hash}" || true) \
           | head -n 2 \
           | grep "^gpg: Signature made" \
           | wc -l
