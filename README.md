@@ -26,4 +26,7 @@ Read the [contributing guidelines](CONTRIBUTING.md).
 
 ## License
 
-AIPs are licensed under the [GPL 3.0 license](LICENSE).
+The content of this repository is dual-licensed under
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) and
+[GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html). See the license text in
+[LICENSE-CC](LICENSE-CC) and [LICENSE-GPL](LICENSE).
