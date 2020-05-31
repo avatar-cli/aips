@@ -65,7 +65,7 @@ The preamble has the following fields:
 
 * `Author`: Name and email address of author of the AIP in the format `Jane
   Smith <jsmith@example.com>`
-* `Co-Author`: Name and email address of additional authors of the UIP in the
+* `Co-Author`: Name and email address of additional authors of the AIP in the
   same format as in `Author` (field can occur multiple times)
 * `Status:` One of [`Draft`, `Deferred`, `Withdrawn`, `Proposed`, `Rejected`,
   `Final`, `Replaced`, or `Obsolete`] (definition of the status values is
@@ -155,7 +155,7 @@ where "XXXX" is the AIP number.
 We MUST host all the AIPs documents on Gitlab and use the pull request feature
 to add new documents, this will allow to add comments and keep track of them.
 
-For each new AIP create then a new branch with the UIP reference number and
+For each new AIP create then a new branch with the AIP reference number and
 create a pull request with master. The pull request is then the place to comment
 before accepting the AIP as `Draft`.
 
