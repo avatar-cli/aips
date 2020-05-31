@@ -14,8 +14,9 @@ by PGP or GPG. You can read more about this topic here:
 
 ### Commit messages
 
-Commit messages must be properly formatted. The reasons behind this decision are
-many:
+Commit messages must be properly formatted (following the
+[Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) rules).
+The reasons behind this decision are many:
   - The project's history has to be "easy" to read.
   - It's easier to extract statistics from the commit logs.
   - It's easier to generate useful changelogs.
