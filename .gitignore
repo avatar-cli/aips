@@ -1,2 +1,3 @@
-# Directories
-/node_modules/
+# CI/CD
+/cx/node_modules/
+/cx/.eslintcache
