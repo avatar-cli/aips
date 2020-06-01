@@ -1,6 +1,6 @@
 {
   "name": "@avatar-cli/aips",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Avatar-CLI Improvement Proposals",
   "author": "Andres Correa Casablanca <castarco@coderspirit.xyz>",
   "license": "GPL-3.0",

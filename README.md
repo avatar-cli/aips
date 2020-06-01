@@ -25,7 +25,7 @@ AIP documents are numbered, and their filenames follow a common structure
 | AIP | Title | Status | Created |
 |---|---|:---:|:---:|
 |[dev-0000](aips/development/dev-0000-aips.md)|Avatar-CLI Improvement Proposal (AIP) Process|Proposed|2020-05-31|
-|[dev-0001](aips/aips/development/dev-0001-automated-version-numbering.md)|Conventional Commits & Automated Version Numbering|Proposed|2020-06-01|
+|[dev-0001](aips/development/dev-0001-automated-version-numbering.md)|Conventional Commits & Automated Version Numbering|Proposed|2020-06-01|
 
 ## How to contribute
 
