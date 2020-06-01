@@ -2,7 +2,7 @@
 
 ```
 Author:   Andres Correa Casablanca <castarco@coderspirit.xyz>
-Status:   Draft
+Status:   Proposed
 Created:  2020-05-31
 ```
 
