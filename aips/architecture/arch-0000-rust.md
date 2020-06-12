@@ -66,10 +66,13 @@ were considered:
 
 Rust, compared with the previously mentioned languages, offer some advantages:
   - It is very easy to generate a single binary (per platform).
-  - Dependencies management is trivial.
+  - Dependencies management is trivial, and most of them are resolved at compile
+    time.
   - Rust tooling is very good, and improving over time at a very good pace.
   - Its type & memory safety guarantees are a very good property for a tool like
     Avatar CLI, that could be used in tasks where security is critical.
+  - It interfaces with C pretty nicely, this is a very good property for systems
+    programming.
 
 ## Reference implementation
 
