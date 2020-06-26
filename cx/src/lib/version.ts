@@ -1,8 +1,8 @@
-import { execWithStringReturn } from './exec'
+import { cxExec } from './exec'
 import { CommitMessage } from './git'
 
 export async function getPackageJsonVersionFromCommit(ref: string): Promise<[number, number, number]> {
-  const packageJson = JSON.parse(await execWithStringReturn(`git show ${ref}:cx/package.json`, { GIT_PAGER: '' }))
+  const packageJson = JSON.parse(await cxExec(`git show ${ref}:cx/package.json`, { GIT_PAGER: '' }))
   const strVersion = (packageJson?.version || '0.0.0') as string
   const strVersionParts = strVersion.split('.')
 
